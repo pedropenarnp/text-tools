@@ -16,7 +16,7 @@ A aplicação é um **Text Tools DApp**, que processa entradas de texto e retorn
 
 ## 📂 Estrutura do projeto
 ```bash
-projeto-final-cartesi/
+text-tools
  ├── text-tools/            # Backend Cartesi DApp em Python
  │    ├── dapp.py
  │    ├── requirements.txt
@@ -43,7 +43,7 @@ projeto-final-cartesi/
 ## 🚀 Rodando o Backend (DApp)
 
 # Entre na pasta
-cd projeto-final-cartesi/text-tools
+cd text-tools/text-tools
 
 # Build da aplicação
 cartesi build
@@ -51,9 +51,8 @@ cartesi build
 # Executar o node local
 cartesi run
 
-💻 Rodando o Frontend
-# Entre na pasta
-cd projeto-final-cartesi/text-tools-frontend
+# Em um novo terminal entre na pasta
+cd text-tools/text-tools-frontend
 
 # Instale dependências
 npm install
